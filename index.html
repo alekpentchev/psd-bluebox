@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset="utf-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<title>My nth website</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato|Noto+Sans|Raleway" rel="stylesheet"> 
+	<link href='style.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<div class='navigation'>
+		<div class='nav-logo'>
+			<img id='logo' src='img/logo.png' alt="bluebox logo">
+			<h1>BlueBox</h1>
+		</div>
+		<nav class='navbar'>
+			<ul>
+				<li><a href='#about'>About</a></li>
+				<li><a href='#services'>Services</a></li>
+				<li><a href='#works'>Works</a></li>
+				<!-- Did not create link to blog because this site does not exist-->
+				<li><a href='#'>Blog</a></li> 
+				<!-- Did not create link to blog because this site does not exist-->
+				<li><a href='#'>Contact us</a></li>
+			</ul>
+			<select> 
+			    <option value="" selected="selected">Go to...</option> 
+			    <option value="/">About</option> 
+			    <option value="/">Services</option> 
+			    <option value="/">Works</option> 
+			    <option value="/">Blog</option> 
+			    <option value="/">Contact us</option> 
+			</select> 
+		</nav>
+	</div>
+
+	<div class="slider" id='about'>
+		<div class='slide showing'>
+			<span>We are a Creative Digital Agency</span>
+			<button type='button' name='learn more'><a href='#'>Learn More</a></button>
+		</div>
+		<div class='slide'>
+		</div>
+		<div class='slide'>
+		</div>
+	</div>
+
+	<div class='services' id='services'>
+		<div class='service'>
+			<span>Web Design</span>
+			<img src='img/web-design.png' alt='Web design icon'>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<a href='#'>Read More</a>
+		</div>
+		<div class='service'>
+			<span>Social Media</span>
+			<img src='img/social-media.png' alt='social media icon'>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<a href='#'>Read More</a>
+		</div>
+		<div class='service'>
+			<span>Mobile apps</span>
+			<img src='img/mobile-apps.png' alt='mobile apps icon'>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<a href='#'>Read More</a>
+		</div>
+	</div>
+
+	<div class='works' id='works'>
+		<h2>Our works</h2>
+		<div class='grid'>
+			<div class='row'>
+				<div class="card"><a href='#img1'><img src='img/work.png' class='thumbnail'></a>
+				</div>
+				<div class="card"><a href='#img2'><img src='img/work2.png'></a></div>
+			</div>
+			<div class='row'>
+				<div class="card"><a href='#img3'><img src='img/work3.png'></a></div>
+				<div class="card"><a href='#img4'><img src='img/work4.png'></a></div>
+			</div>
+			<div class='row'>
+				<div class="card"><a href='#img5'><img src='img/work5.png'></a></div>
+				<div class="card"><a href='#img6'><img src='img/work6.png'></a></div>
+			</div>
+			<div class='row'>
+				<div class="card"><a href='#img7'><img src='img/work7.png'></a></div>
+				<div class="card"><a href='#img8'><img src='img/work.png'></a></div>
+			</div>
+
+			<a href="#_" class="lightbox" id="img1"><img src='img/work.png' class='thumbnail'></a>
+			<a href="#_" class="lightbox" id="img2"><img src='img/work2.png' class='thumbnail'></a>
+			<a href="#_" class="lightbox" id="img3"><img src='img/work3.png' class='thumbnail'></a>
+			<a href="#_" class="lightbox" id="img4"><img src='img/work4.png' class='thumbnail'></a>
+			<a href="#_" class="lightbox" id="img5"><img src='img/work5.png' class='thumbnail'></a>
+			<a href="#_" class="lightbox" id="img6"><img src='img/work6.png' class='thumbnail'></a>
+			<a href="#_" class="lightbox" id="img7"><img src='img/work7.png' class='thumbnail'></a>
+			<a href="#_" class="lightbox" id="img8"><img src='img/work.png' class='thumbnail'></a>
+
+		</div>
+	</div>
+
+	<div class='clients'>
+		<h2>Our clients</h2>
+		<div class='client-logos'>
+			<img src='img/cnn-logo.png' alt='CNN logo'>
+			<img src='img/casio-logo.png' alt='CASIO logo'>
+			<img src='img/apartment-finder-logo.png' alt='Apartment Finder logo'>
+			<img src='img/fujifilm-logo.png' alt='Fujifilm logo'>
+		</div>
+
+	</div>
+
+	<footer>
+		<div class='footer-links'>
+			<ul>
+				<li><a href='#about'>About</a></li>
+				<li><a href='#services'>Services</a></li>
+				<li><a href='#works'>Works</a></li>
+				<li><a href='#'>Blog</a></li>
+				<li><a href='#'>Contact us</a></li>
+			</ul>
+			<span>&copy; 2013 BlueBox. All rights reserved</span>
+			<span>The logos used in the design are the property of their respective owners / copyright holders</span>
+		</div>
+
+		<div class='social-media-links'>
+			<a href='#'><img src='img/facebook-icon.png' alt='Facebook social media icon'></a>
+			<a href='#'><img src='img/twitter-icon.png' alt='Twitter social media icon'></a>
+			<a href='#'><img src='img/google-plus-icon.png' alt='Google+ social media icon'></a>
+			<a href='#'><img src='img/linkedin-icon.png' alt='Linkedin social media icon'></a>
+			<a href='#'><img src='img/pinterest-icon.png' alt='Pinterest social media icon'></a>
+			<a href='#'><img src='img/dribbble-icon.png' alt='Dribbble social media icon'></a>
+		</div>
+	</footer>
+
+	<script src='sript.js'></script>
+</body>
+</html>
